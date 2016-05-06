@@ -12,4 +12,5 @@ RUN apk --no-cache add --virtual build-dependencies git \
       && git clone https://github.com/evanyeung/terminal-slack.git /app \
       && apk del build-dependencies
 
-ENTRYPOINT ["node main.js"]
+ENTRYPOINT ["node"]
+CMD ["main.js"]
