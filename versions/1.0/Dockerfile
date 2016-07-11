@@ -4,7 +4,7 @@
 # export SLACK_TOKEN=?
 # docker run --rm -it -e SLACK_TOKEN pottava/terminal-slack
 
-FROM pottava/nodejs:6.0
+FROM pottava/nodejs:6.3
 
 WORKDIR /app
 
